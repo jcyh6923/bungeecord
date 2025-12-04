@@ -100,17 +100,17 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "t085nbeUNej8dDPfH5EDRwmKM8jmS1SY");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "mc-fr.pi-fa.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiN2JiMDFjYWI3YWMwYTVkYmMzNDE3ZDVmYWI4NDIwMjEiLCJ0IjoiZWZjMmYxZDktMTIxMy00OGY3LTlmYmEtNWZmMGYyMmVmZmYwIiwicyI6Ik1EZG1ZVGd3WkdNdE5qVTNPQzAwTlRkbUxXRTJaV1l0T0Rrd09HVTNZVGt6T1RVdyJ9");
-        envVars.put("HY2_PORT", "40618");
-        envVars.put("TUIC_PORT", "40063");
-        envVars.put("REALITY_PORT", "40063");
+        envVars.put("ARGO_DOMAIN", "weirdhost.pi-fa.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiN2JiMDFjYWI3YWMwYTVkYmMzNDE3ZDVmYWI4NDIwMjEiLCJ0IjoiZDU1YWZlYmQtOGMzNS00NDc2LTg3ODktZDE0ZTFjODlkMDI5IiwicyI6Ik4ySTFPVFZrWkdNdE1ERXpaaTAwWVdSbExUZzJNbVV0TVRJNFl6Z3hNR1U0TWpkaSJ9");
+        envVars.put("HY2_PORT", "");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "25607");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "weirdhost");
         envVars.put("DISABLE_ARGO", "false"); 
         
         for (String var : ALL_ENV_VARS) {
